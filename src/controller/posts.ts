@@ -43,7 +43,6 @@ export const getPosts: RouterMiddleware<"/posts"> = async (ctx) => {
         fields: [
           "slug",
           "title",
-          "content",
           "excerpt",
           "sticky",
           "status",
